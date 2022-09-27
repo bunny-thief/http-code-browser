@@ -1,0 +1,8 @@
+<!-- templates/home.html-->
+
+<h1>HTTP Code Browser</h1>
+<ul>
+    {% for code in responsecode_list %}
+    <li>{{ code.response_code }} </li>
+    {% endfor %}
+</ul>
